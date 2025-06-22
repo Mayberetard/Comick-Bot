@@ -53,7 +53,7 @@ def fetch_manga_chapters(hid, page):
 @bot.on_message(filters.command("start"))
 async def start(client, message):
     buttons = [
-        [InlineKeyboardButton("🤩 Main Channel", url="https://t.me/Manga_Sect"),
+        [InlineKeyboardButton("🤩 Main Channel", url="https://t.me/maybe_retard"),
          InlineKeyboardButton("ℹ️ Help", callback_data="help")],
         [InlineKeyboardButton("❌ Close", callback_data="close")]
     ]
